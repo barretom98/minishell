@@ -6,7 +6,7 @@
 /*   By: amiguel- <amiguel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 11:03:09 by amiguel-          #+#    #+#             */
-/*   Updated: 2024/09/18 12:14:20 by amiguel-         ###   ########.fr       */
+/*   Updated: 2024/09/23 11:08:11 by amiguel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,9 @@
 # define STDERR 2
 # define ERROR 1
 # define SUCCESS 0
+
+#define SKIP 1
+#define NOSKIP 0
 
 typedef struct	s_token
 {
