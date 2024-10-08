@@ -6,7 +6,7 @@
 /*   By: amiguel- <amiguel-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 11:03:09 by amiguel-          #+#    #+#             */
-/*   Updated: 2024/09/23 11:08:11 by amiguel-         ###   ########.fr       */
+/*   Updated: 2024/10/02 12:40:42 by amiguel-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,12 +31,14 @@
 # define TRUNC 3
 # define APPEND 4
 # define INPUT 5
-# define PIPE 6
-# define END 7
+# define HEREDOC 6
+# define PIPE 7
+# define END 8
 
 # define STDIN 0
 # define STDOUT 1
 # define STDERR 2
+
 # define ERROR 1
 # define SUCCESS 0
 
